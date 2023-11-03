@@ -1,6 +1,6 @@
 # Multiscale coupling of surface temperature with solid diffusion in large lithium-ion pouch cells
 
-This repository contains the battery parameterization codes in MATLAB and Comsol for our paper [Multiscale coupling of surface temperature with solid diffusion in large lithium-ion pouch cells](https://www.nature.com/articles/s44172-022-00005-8), also available on [arXiv](https://arxiv.org/abs/2109.1290). The data associated with this paper may be downloaded from [Oxford Research Archive](https://ora.ox.ac.uk/objects/uuid:5f4abb09-c993-4799-9cb1-980218bde513).
+This repository contains the battery parameterization codes in MATLAB and Comsol for our paper [Multiscale coupling of surface temperature with solid diffusion in large lithium-ion pouch cells](https://www.nature.com/articles/s44172-022-00005-8), also available on [arXiv](https://arxiv.org/abs/2109.12903). The data associated with this paper may be downloaded from [Oxford Research Archive](https://ora.ox.ac.uk/objects/uuid:5f4abb09-c993-4799-9cb1-980218bde513).
 
 We developed a new computationally efficient three-dimensional battery electrochemical-thermal model to parameterize several Li-ion battery physicochemical properties by fitting a model to measured cell surface temperature distributions, current and voltage. This work shows that the surface-temperature distribution across a large-format cell is an effective probe for battery diagnostics.
 
