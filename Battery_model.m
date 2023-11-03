@@ -9,7 +9,8 @@ import com.comsol.model.util.*
 
 model = ModelUtil.create('Model');
 
-model.modelPath('C:\Users\Jie\Desktop\Github');
+localpath = pwd();
+model.modelPath(localpath);
 
 model.label('Battery model.mph');
 
