@@ -22,3 +22,6 @@ The main scripts are `Main_Opt.m`, `ObjFunc.m` and `Battery_model.m`, and they a
 - **Battery_model**: A reduced-order battery electrochemical-thermal model developed in COMSOL and exported as a `.m` file, to be run with COMSOL livelink and MATLAB.
 
 In addition to the scripts, a small example set of experimental data is also provided for fitting. The full set may be downloaded from ORA, see details above.
+
+## Some notes on things that have come up as others have tried this code
+- Please be aware that some parameters have been *rescaled* as part of the homogenisation process (notably, $\kappa$ and $\alpha$). The scaling factor is $N^2$, where $N$ is the number of layers in the cell. The explanation of this rescaling is given in section 4.2 of [this paper](https://www.sciencedirect.com/science/article/pii/S0378775320300902) (open access version [here](https://ora.ox.ac.uk/objects/uuid:1e9db630-0d2b-4080-9bce-990067a5bccf)).
